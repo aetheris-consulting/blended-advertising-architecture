@@ -1,0 +1,110 @@
+# START HERE – Blended Advertising Architecture
+
+This repository defines a **governance-first systems architecture** for how AI, humans, and organizations interact in commercial and decision-making environments.
+
+It is not a product or implementation — it is a **reference architecture** designed to support:
+
+- Human-in-the-loop AI systems  
+- Policy-first decision workflows  
+- Auditable AI actions  
+- Safe monetization models  
+- Enterprise and regulated environments  
+
+---
+
+## Reading Order
+
+If you are new to this architecture, review the documents in the following order:
+
+### 1. Core Systems Grammar  
+**`universal_systems_grammar_primitives.md`**  
+Defines the foundational primitives:
+
+- Everything is a dataset  
+- Everything is a file (artifact)  
+- Everything is an organization  
+- Everything is a workflow  
+- Compliance is nested  
+- Interactions are nested  
+- Six-loci explainability model  
+
+This is the conceptual backbone of the system.
+
+---
+
+### 2. Connector & Integration Model  
+**`commerce_connector_layer.md`**  
+Explains how external vendors, platforms, and services integrate safely via:
+
+- Governed boundaries  
+- Capability-scoped connectors  
+- Policy-gated data access  
+- No autonomous purchasing  
+
+---
+
+### 3. Trust & Safety Guardrails  
+**`trust_and_safety_commerce.md`**  
+Details the safety principles:
+
+- No AI financial authority  
+- Human approval requirements  
+- Influence disclosure  
+- Audit logging  
+- Anti-steering protections  
+
+---
+
+### 4. Enterprise Monetization Architecture  
+**`enterprise_monetization_architecture.md`**  
+Explains how monetization works without violating:
+
+- Compliance  
+- Trust  
+- Procurement rules  
+- User autonomy  
+
+---
+
+## Design Guarantees
+
+This architecture enforces:
+
+- Humans remain the final authority  
+- AI never commits money or contracts  
+- Policies always outrank monetization  
+- Every decision produces an audit artifact  
+- Influence is transparent, not hidden  
+
+---
+
+## What “Blended” Means
+
+“Blended” does **not** mean intrusive advertising.
+
+It means:
+
+- Commercial information appears only when relevant  
+- Visibility is bounded by policy and user intent  
+- Influence is disclosed  
+- Value is prioritized over interruption  
+
+---
+
+## Status
+
+This repository is a **reference architecture** for:
+
+- AI governance  
+- Agentic system safety  
+- Enterprise AI adoption  
+- Ethical monetization models  
+
+It is intentionally implementation-agnostic.
+
+---
+
+## Contact
+
+Maintained by **Aetheris Consulting**  
+Focus: Safe, auditable AI–human–organization interaction  
