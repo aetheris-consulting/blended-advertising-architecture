@@ -1,0 +1,18 @@
+flowchart TB
+  subgraph Tenant["Tenant / Household / Enterprise"]
+    A[Actor (Person)] -->|member_of| H[Household / Dept]
+    H -->|part_of| E[Enterprise / Tenant]
+    A -->|has_role| R[Role]
+    R -->|grants| P[Permissions]
+    E -->|policy_stack| PS[Policy Stack]
+  end
+
+  subgraph External["External Orgs"]
+    V[Vendor]
+    C[Card Provider / Perk Source]
+    M[Marketplace]
+  end
+
+  E -->|contracts_with| V
+  E -->|integrates_with| C
+  E -->|integrates_with| M
